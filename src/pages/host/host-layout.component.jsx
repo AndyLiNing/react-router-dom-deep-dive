@@ -6,7 +6,7 @@ export default function HostLayout() {
         <Fragment>
             <nav>
                 <Link to='/host'> Dashboard </Link>
-                <Link to='/host/income'> Icome </Link>
+                <Link to='/host/income'> Income </Link>
                 <Link to='/host/review'> Review </Link>
             </nav>
             <Outlet/>

@@ -6,6 +6,7 @@ export default function Van () {
     const id = params.id;
     const [van, setVan] = useState({});
     const { name, price, imageUrl } = van;
+
     useEffect(() => {
         fetch(`/api/vans/${id}`)
             .then((res) => res.json())
